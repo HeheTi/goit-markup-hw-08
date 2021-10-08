@@ -1,0 +1,21 @@
+.page-footer {
+  padding-top: 60px;
+  padding-bottom: 60px;
+
+  background-color: var(--footer-background-color);
+}
+.page-footer__container {
+  @media screen and (min-width: 768px) {
+    display: flex;
+    align-items: baseline;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+}
+.page-footer__text {
+  display: block;
+  margin-bottom: 20px;
+  @include font(14px, 700, 1.14);
+  text-transform: uppercase;
+  color: var(--primary-white-color);
+}

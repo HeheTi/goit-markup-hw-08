@@ -1,0 +1,24 @@
+.logo {
+  display: block;
+
+  font-family: Raleway, sans-serif;
+  @include font(26px, 700, 1.19);
+  letter-spacing: 0.03em;
+
+  color: var(--accent-color);
+}
+.page-header__logo {
+  margin-right: 93px;
+}
+.logo__wrapper--color-black {
+  color: var(--primary-black-color);
+}
+.page-footer__logo {
+  margin-bottom: 20px;
+  @media screen and (max-width: 1199px) {
+    text-align: center;
+  }
+}
+.logo__wrapper--color-white {
+  color: var(--primary-white-color);
+}

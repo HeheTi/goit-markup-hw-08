@@ -1,0 +1,33 @@
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+nav,
+footer,
+header,
+aside {
+  display: block;
+}
+
+.list {
+  list-style: none;
+}
+.link {
+  text-decoration: none;
+}
+input,
+button,
+textarea {
+  font-family: inherit;
+}
+// Потом картинки поменяем и удалим этот момент
+// img {
+//   display: block;
+//   width: 100%;
+// }
