@@ -5,11 +5,13 @@
   background-color: var(--footer-background-color);
 }
 .page-footer__container {
+  @media screen and (min-width: 768px) and (max-width: 1199px) {
+    justify-content: space-around;
+  }
   @media screen and (min-width: 768px) {
     display: flex;
     align-items: baseline;
     flex-wrap: wrap;
-    justify-content: space-around;
   }
 }
 .page-footer__text {
