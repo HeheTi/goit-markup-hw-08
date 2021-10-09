@@ -5,4 +5,7 @@
   margin: 0;
 
   @include font(14px, 400, 1.71);
+  &.modal-open {
+    overflow: hidden;
+  }
 }

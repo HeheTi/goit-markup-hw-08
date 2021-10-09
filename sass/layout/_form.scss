@@ -70,14 +70,21 @@
   justify-content: center;
   align-items: center;
   margin-bottom: 30px;
+  @include font(10px, 400, 1.16);
 
-  @include font(14px, 400, 1.71);
   letter-spacing: 0.03em;
 
   color: var(--primary-text-color);
+  @media screen and (min-width: 480px) {
+    @include font(12px, 400, 1.16);
+  }
+  @media screen and (min-width: 1200px) {
+    @include font(14px, 400, 1.71);
+  }
 }
 .check-text__wrapper {
   display: flex;
+
   align-items: center;
   justify-content: center;
 
@@ -96,8 +103,17 @@
 }
 .check-text__link {
   margin-left: 3px;
+
+  @include font(inherit, inherit, inherit);
   text-decoration: underline;
   color: var(--accent-color);
+  // @include font(10px, 400, 1.16);
+  // @media screen and (min-width: 480px) and (max-width: 1199px) {
+  //   @include font(12px, 400, 1.16);
+  // }
+  // @media screen and (min-width: 1200px) {
+  //   @include font(14px, 400, 1.71);
+  // }
 }
 
 .check-text__icon {
