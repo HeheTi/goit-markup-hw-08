@@ -6,9 +6,8 @@
   border: 0;
 
   font-family: inherit;
-  @include font(16px, 700, 1.88);
+  @include font(16px, 700, 1.88, 0.06em);
   text-align: center;
-  letter-spacing: 0.06em;
   cursor: pointer;
   background-color: var(--accent-color);
   color: var(--primary-white-color);
