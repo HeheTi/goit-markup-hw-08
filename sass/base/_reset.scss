@@ -20,14 +20,14 @@ aside {
 }
 .link {
   text-decoration: none;
+  color: inherit;
 }
 input,
 button,
 textarea {
   font-family: inherit;
 }
-// Потом картинки поменяем и удалим этот момент
-// img {
-//   display: block;
-//   width: 100%;
-// }
+
+img {
+  display: block;
+}

@@ -31,7 +31,6 @@
 }
 
 .site-nav__link--active {
-  color: var(--accent-color);
   &::after {
     content: '';
     position: absolute;
@@ -42,4 +41,7 @@
     border-radius: 2px;
     background: var(--accent-color);
   }
+}
+.active {
+  color: var(--accent-color);
 }

@@ -8,6 +8,7 @@
 .clients-list {
   display: flex;
   justify-content: center;
+
   @media screen and (max-width: 1199px) {
     margin: -15px;
     flex-wrap: wrap;
@@ -29,7 +30,7 @@
   align-items: center;
   border-radius: 4px;
 
-  width: 130px;
+  width: 230px;
   height: 92px;
 
   border: 1px solid #afb1b8;
