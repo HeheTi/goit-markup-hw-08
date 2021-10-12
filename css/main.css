@@ -1671,6 +1671,7 @@ img {
 }
 
 .studio-works__link {
+  height: 100%;
   display: block;
 }
 
