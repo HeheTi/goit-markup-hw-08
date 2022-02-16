@@ -1,1 +1,1 @@
-# goit-markup-hw-08
+# The landing site of the web studio.
